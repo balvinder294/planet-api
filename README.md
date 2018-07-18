@@ -1,5 +1,36 @@
 # Planet-Api APP With Angular6 Client and ExpressJs Server 
 
+## Running the App
+
+### 1. For planet-server 
+
+- Do for development profile
+ ``` 
+    cd planet-server
+    npm run dev
+ ```
+ - For production profile
+
+ ```
+    cd planet-server
+    npm run compile
+    npm run start
+ ```
+### 2. For planet-client
+
+- Do for development profile
+ ``` 
+    cd planet-client
+    ng serve
+ ```
+ - For production profile
+
+ ```
+    cd planet-client
+    ng build --prod
+    ng serve
+ ```
+
 ## Steps for adding new Api to planet-server App
 
 1. Create a folder in server > api > controller with any name. We have examples folder here.
