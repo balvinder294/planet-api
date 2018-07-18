@@ -1,7 +1,7 @@
 {
-  "name": "planet-server",
+  "name": "phlox-planet-server",
   "version": "1.0.0",
-  "description": "planet-server",
+  "description": "phlox-planet-server",
   "main": "index.js",
   "scripts": {
     "start": "cd build && node main",

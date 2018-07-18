@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
   version: 1.0.0
-  title: planet-server
-  description: planet-server
+  title: phlox-planet-server
+  description: phlox-planet-server
 basePath: /api/v1
 tags:
   - name: Examples
