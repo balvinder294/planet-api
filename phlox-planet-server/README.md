@@ -1,4 +1,4 @@
-# planet-server
+# phlox-planet-server
 
 planet-server
 

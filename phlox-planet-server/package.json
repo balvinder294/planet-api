@@ -1,7 +1,7 @@
 {
-  "name": "planet-server",
+  "name": "phlox-planet-server",
   "version": "1.0.0",
-  "description": "planet-server",
+  "description": "phlox-planet-server",
   "main": "index.js",
   "scripts": {
     "start": "cd build && node main",
@@ -11,10 +11,12 @@
     "test": "node build.js && _mocha --compilers js:babel-register --exit"
   },
   "dependencies": {
+    "bitbucket-api-v2": "^0.6.2",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
+    "octonode": "^0.9.2",
     "pino": "^4.15.0",
     "source-map-support": "^0.5.4",
     "swagger-express-middleware": "^1.0.0-alpha.12"
